@@ -1,1 +1,8 @@
-<p>school-list works!</p>
+<div class="school-list">
+    <div *ngFor="let school of schools" class="school-item">
+      <h3>{{ school.name }}</h3>
+      <p>{{ school.address }}</p>
+      <a [routerLink]="['/schools', school.id]">View Details</a>
+    </div>
+  </div>
+  

@@ -1,12 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-school-list',
   standalone: true,
-  imports: [],
+  selector: 'app-school-list',
   templateUrl: './school-list.component.html',
-  styleUrl: './school-list.component.css'
+  styleUrls: ['./school-list.component.scss'],
+  imports: [CommonModule, RouterModule]
 })
-export class SchoolListComponent {
+export class SchoolListComponent implements OnInit {
+  schools = [
+    { id: 1, name: 'School A', address: 'Address A' },
+    { id: 2, name: 'School B', address: 'Address B' },
+    { id: 3, name: 'School C', address: 'Address C' }
+  ];
 
+  constructor() { }
+
+  ngOnInit(): void {
+    // Fetch data from a service or API
+  }
 }

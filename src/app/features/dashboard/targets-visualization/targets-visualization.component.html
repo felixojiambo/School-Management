@@ -1,1 +1,4 @@
-<p>targets-visualization works!</p>
+<div class="targets-visualization">
+    <app-pie-chart *ngFor="let target of targets" [data]="target.data" [title]="target.title"></app-pie-chart>
+  </div>
+  

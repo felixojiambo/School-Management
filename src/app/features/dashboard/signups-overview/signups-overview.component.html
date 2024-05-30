@@ -1,1 +1,4 @@
-<p>signups-overview works!</p>
+<div class="signups-overview">
+    <app-bar-graph *ngFor="let signup of signups" [data]="signup.data" [title]="signup.title"></app-bar-graph>
+  </div>
+  
