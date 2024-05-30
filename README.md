@@ -1,7 +1,3 @@
-Sure, here is a comprehensive README file for your "School Management Dashboard" project:
-
----
-
 # School Management Dashboard
 
 A comprehensive School Management Dashboard built with Angular 17 using standalone components. This dashboard provides an overview of collections, sign-ups, total revenue, and bounced cheques, and includes modules for managing school details, invoices, and collections.
