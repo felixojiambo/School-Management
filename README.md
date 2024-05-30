@@ -158,6 +158,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Angular](https://angular.io/) - The web framework used
 - [Bootstrap](https://getbootstrap.com/) - For the UI components
 
----
-
-This README provides a comprehensive overview of the "School Management Dashboard" project, including setup instructions, project structure, and descriptions of key components and services.
